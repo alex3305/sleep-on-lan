@@ -22,7 +22,7 @@ func (s systemctl) hibernate() {
 	runCommand(s.application, "hibernate")
 }
 
-func (s systemctl) powerOff() {
+func (s systemctl) poweroff() {
 	runCommand("poweroff")
 }
 
